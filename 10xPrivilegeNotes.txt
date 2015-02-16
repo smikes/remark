@@ -1,0 +1,91 @@
+﻿Hello, I’m Sam Mikes and I’m here with an unusual goal today.
+I’m hoping that this talk will make you uncomfortable. But just to be clear, I don’t want to make anyone feel unsafe. So before I begin I want to go over the definitions of “safe” and “comfortable”.
+You feel “comfortable” when your environment is set up tolerably. Not too hot, not too cold; your chair is neither too hard nor too soft. That’s comfortable
+You feel “safe” when you’re not being threatened, not in danger, free from harm.
+Now here’s the reason that “comfort” and “safety” can be hard for some of us to tell apart. When you feel comfortable, you don’t have to do anything. When you feel safe, you don’t have to do anything. These are in Frederick Herzberg’s terms, “hygiene factors”.
+That is, from an industrial engineering perspective, they don’t enhance productivity. But their absence can harm productivity. Let’s see what that absence looks like.
+When you feel uncomfortable, you can take steps to address it... but you can also just put up with it. Like on an airplane flight: you’re uncomfortable, but it’s time-limited.
+But when you feel un-*safe* then ignoring it is not an option. You have to protect your safety if you feel under threat. So let me give you a concrete example.
+I used to work in the process industry, so imagine you’re me. I show up to do some on-site work at a water treatment plant. And as I assess the workstation I’m looking at lighting, desk height, that sort of thing. Comfort factors. But suddenly I notice this big red light on the wall. And I ask the client, what’s that for? And the client says, oh, if that starts flashing you’d better get to high ground…
+Because that’s the overflow indicator for the main sewage holding tank. That’s right above this office, so if it’s flashing, that means it’s all going to come down right on your head.
+And so that’s the difference between comfort and safety.
+So now onto the substance of this talk: How you can use your superpower to be a 10x developer.
+This idea of a 10x developer can be traced back to Fred Brooks’s classic work on software, The Mythical Man-Month. And it’s important to look at what was written there because it’s often misinterpreted.
+What that initial study found was that in a cohort of developers with similar experience, performance differed, depending on the metrics applied. It’s not that there are some developers that are 10 times more productive than *average*; even though that’s what a lot of people take away from the number.
+The thing is, our brains have bugs. We remember that there’s something about developers and ten times, and we drop the details and the context.
+Here’s another example of a brain bug. This is called a Benham’s disk. Now this is a visual stimulus, so if you’re susceptible to seizures or anything like that, please look away for a moment and I’ll tell you when it’s done. I’ll give you a moment to get ready.. <pause> Here it is spinning <pause> And now it’s done, you can look now.
+Did you see the colors? Raise your hand if you saw red… yellow… some other colors?
+This is an optical illusion where a spinning black-and-white pattern is perceived as color. And different people perceive different colors! And -- the best part -- we still don’t really understand the neural mechanism that causes this.
+There was a demonstration of this effect in the 1930s and people were able to perceive color on their black-and-white televisions when this spinning pattern was broadcast.
+So our brains have bugs. 
+Another important bug is illustrated here. What do you think about the people in this car here? This white car is trying to merge at the very end of the merge lane, and there’s a truck there. Are they bad people, trying to cut in front of the truck? Or are they just in a bad situation, trying to merge on an unfamiliar freeway?
+Does it depend on whether you’re in the white car or not?
+So this bug has a name, we call it the Fundamental Attribution Error, and we tend to believe that other people’s bad actions are caused by their bad character, bad intent, or maybe ignorance — qualities inherent to the other person.
+But about ourselves we tend to think the opposite: our good actions come from our good character; we tend to deny that we have any bad actions at all. If we can’t deny them, then we’ll blame our environment.
+And in general people tend to underestimate environmental factors.
+So if we take our knowledge of this brain bug and look at the 10x developer question again, then we can see that instead of looking for 10x developers we should be looking at their working environments. And we can look for the things that cause 10x environments, but it’s actually easier to find things that are destroying or limiting productivity, factors that create a 0.1x environment.
+So we’re back to the thing I mentioned earlier – hygiene factors – comfort and safety.
+For starters, don’t literally give anybody a desk under a sewage tank. 
+But I want to go beyond physical safety and comfort. Our work is a mental discipline, and our productivity is affected by mental and emotional hygiene factors. At first glance, it might be hard to identify these. But in fact, they’re all around us.
+Now I told you at the beginning that this talk would be about using superpowers. 
+And my superpower is an inability to see some of the factors that make an environment unproductive. My superpower is called privilege.
+And let me talk about privilege for a second. You may not think you have privilege. But consider that if you earn more than 30,000-40,000 dollars in a year, you’re in the top 1% of income-earners worldwide. I think we’re all incredibly privileged to be working with computers, not doing physical labor that wears out a person’s body in 20 years.
+There are a lot of different kinds of privilege, and I’m not an expert, so I won’t go into detail. I want to go on with this model of an unsafe workspace. 
+But instead of a literal tank of sewage let’s make it a metaphorical one. Keep the tank metaphor but instead of fluid level, think about stress level, or threat level. When the tank is nearly empty, you can pretend it doesn’t exist. When it’s nearly full, you’ll find yourself checking it regularly, which will reduce your productivity. Any negative or intrusive thought can break your flow and reduce your productivity.
+And for different people, different things fill up their tank. If you aren’t sure whether your family is covered by your employer’s health insurance, that adds a little to your tank. If you’re African-American and your co-workers make snide comments about President Obama, that adds a little to your tank.
+So if you have a tank you have to think about three kinds of events. First is when the tank is catastrophically overfilled in a single transaction. There’s not much you can do to prevent that. You have a safety plan and when that happens, you execute it.
+Then you could have some fluid added, but your pumps are fast enough and they can keep up with the inflow. So that’s business as usual.
+And the third kind of event is what interests me. That’s when we add some fluid faster than the pumps can pump it out. So it’s a problem, because that’s not sustainable. It’s those events that you have to watch out for because they have the potential to cause a catastrophic overflow. Little things add up.
+Conveniently we have a name for that too. That’s called a “microaggression” and here’s a technical definition from social psychology, but I like to think of it as “pouring sewage into a person’s tank faster than they can pump it out.”
+So here’s some examples of how this can work. These are real, collected in the wild. I was at a pre-conference mixer, I heard a man say to a woman “You should get a tattoo or something to prove you’re nerdy enough to be here.” That’s a microagression, it embeds the message that she doesn’t belong at a tech conference -- that she needs to prove herself.
+And I heard two presenters chatting, one said “we need to get a motherly person here to take care of us” and the other one said “they’re all too busy working out and looking pretty”. And that embeds the idea that only certain roles – mothering, decoration – are available to women; women aren’t members of the team, fellow engineers.
+And here’s one from a popular Haskell textbook — if you filter this last string for capital letters only, it spells out “GAY BALLS”. This is juvenile, but it’s also harmful. I’m trying to learn a programming language, I don’t expect homophobia.
+And one of the things people say is, well, if the intent is good, we should only pay attention to that. And although that might be a nice idea, there’s a problem with that. It’s that intent matters, but you can only use intent after the fact to distinguish between misunderstanding and thread.
+So here’s an example. In high school I was hanging out with my literary friends and we were really into sarcasm; we knew all the tricks: we used litotes. And a woman that I didn’t know very well said something to me, that I interpreted as a backhanded compliment. I responded in kind, with a self-deprecating, sarcastic reference to a character from a story.
+(pause)
+And she ran out of the room crying.
+See, I had caused her tank to overflow. But my intent was good, right? No bad intent! So I should run after her and explain that?
+No, of course not. I knew that even at the age of 18.
+So what actually happened in this instance, was we had a mutual friend, and this mutual friend set up an opportunity for us to talk, and I apologized, and this woman and I eventually became friends. So intent can help you tell the difference between misunderstanding and attack. But only after the fact. In the moment, intent doesn’t matter.
+Here’s another thing. I might say, “I can tell *I* don’t do that”. I’m an enlightened person, you know. And the proof is, nobody calls me on it.
+BUT WAIT.
+Just because nobody calls me on it, doesn’t mean I’m not doing it. In fact, there are many possible reasons no-one is calling me on it.
+And when I think about this explanation, I can see the Fundamental Attribution Error again. It’s my buggy brain’s favorite reason! I want to believe I’m a good person, so if I do something bad, I’ll deny it.  And if I can’t deny it, so I’ll blame it on my environment, or on somebody else. I have to be suspicious of any explanation that ends with “because I’m a moral and enlightened person.”
+What are some other possibilities? People are trying to call me on it, but I’m not getting the message. 
+You think that’s bad? It gets worse! How about, Nobody bothers to call me on it because I’m such a nightmare to talk to. They don’t want to deal with the risk that I’ll react badly.
+So is it even possible to rule these out?
+Ok, so at JSFest 2014 Jenn threw down this challenge. 
+I’m not going to talk about impostor syndrome. <pause> But I can try to make myself vulnerable.
+It’s pretty hard for me to say anything that makes me vulnerable. I’m a straight, white, heterosexual cis-gendered well-off male US citizen. That’s a lot of privilege. But I’ll give it a shot.
+So as I mentioned, I was at JSFest December 2014. That was my first conference in over a decade, because I don’t go to conferences.
+But I decided I wanted to join this community, the Javascript community, because I was done sitting in a cave and programming all by myself. So I wanted to find a community, and what’s a community — it’s a group of people who have sacred values in common. And I looked at a number of communities and the values – the implicit values – of the javascript community look a lot like “be nice and helpful to people, especially beginners”.
+And that resonated with me. After all, I’m a nice person! So that was good, and I decided I’d go to JSFest and scope out this community
+And then #gamergate happened and I discovered that I couldn’t follow or retweet certain people on Twitter. I found out that I was on a blocklist. I’d actually been on a blocklist since January 2014, but I only noticed after #gamergate when many people started using this blocklist.
+And at first I thought it was some mistake, because although I could find the date that I was added to the blocklist, I couldn’t find a tweet on my timeline that made sense to have caused that.
+But “luckily” for me the people who run that blocklist keep records of those things and they were able to point out exactly what I had said. And this is where I’d like to say I realized that I had done something unkind. 
+But my first reaction was that it was unfair. That these people who didn’t even know me were being mean to me. And other embarrassing tantrum-like thoughts.
+But once again I was lucky. I had decided I would wait a full day between each post I made to the thread.  That’s a nice trick, by the way– you can pre-commit to responding in a certain way, instead of responding in the heat of the moment.
+So I was able to realize that they had done a very reasonable thing. They had identified me as possibly hostile. They did not try to engage with me, did not try to change my mind (which probably would not have worked at the time) and just marked me as a threat.
+And then I was able to introspect and practice a little empathy and see that I had been rude, mean, and unkind. That I had been dumping shit onto people’s heads. I felt embarrassed, and then ashamed. So I apologized.
+And about a week later I was taken off the blocklist.
+So the same protocol as before, right? A trusted third party intervenes. And now I can retweet people again, and fully interact with the community.
+And that’s all because some strangers -- the people who run this blocklist -- were really, really, kind to me. They identified something that I had said that was harmful; they didn’t confront me, but gently informed me about it (by putting me on a block list) and they gave me a second chance.  They called me on my shit. It was a priceless service, and they did it for free.
+As I said before, I feel ashamed about this but if you have curiosity you can find it pretty easily or you can just talk to me later or online.
+How is this going to help? Remember, I promised you I’d show you how to use your superpower - your privilege - to be a 10x developer.
+How can you be ten times more productive? Well, you could work ten times as many hours. But let’s assume you’re already working more than an hour a day.
+Here’s a motivational quote: There’s no limit to the amount of good you can accomplish, if you don’t care who gets the credit for it.
+As long as you don’t need the credit, you can be effective by removing blocks to other peoples’ productivity.
+So you could help ten people double their productivity. If that doesn’t seem likely, you could help 100 people each increase their productivity by 10%.  Or a thousand people, by 1%. Little things add up.
+Here’s how you do it.  There’s some setup.  First: get a buddy. Get backup -- someone who will call you out.
+Next: pre-commit to positive behaviors. Decide how you’re going to respond when someone calls you out, or pushes back.
+And then, … you can use your superpower.
+When you have privilege, you can shut down microaggressions with low risk of push back.
+What’s the payoff? Why should you do this? Only do it if you think it’s making the world a better place. Don’t do it for cookies. The reward is internal.
+Don’t do it to belittle people. It’s important to remember that the person you’re interrupting doesn’t think they’re being a jerk. (Fundamental Attribution Error again!) So be gentle; use humor; apologize when you screw up.
+Because you will screw up. There’s no certainty in doing this, and it can be uncomfortable to put yourself out there. I’m uncomfortable right now, standing up here, telling you about my failings. But it’s worth enduring a little discomfort when we’re talking about improving safety.
+So: some concrete examples. The one guy said “We need a motherly person around here”
+I said, “Maybe you need a fatherly person. My kids say I make pretty good pancakes, how about I come by tomorrow morning and cook some for you?”
+He said “You should get a tattoo to show you belong here”. I said “She doesn’t have to have or do anything to show she belongs here. Being here is proof enough.”
+And I want to repeat that to anyone who’s wondering if they belong here, or feels like they have to *do* something to belong here. 
+You belong here. Being here is the proof.
+Thank you. That’s all.
