@@ -17,6 +17,10 @@
         font-size: 84px;
         text-align:center;
       }      
+      .fade {
+      -webkit-animation: fadeout 120s;
+      -webkit-animation-timing-function: easeInCirc;
+      }
       .inverse {
         background: #101010;
         color: #777872;
@@ -26,12 +30,19 @@
         color: #f3f3f3;
         line-height: 0.8em;
       }
-
+      @-webkit-keyframes fadeout {
+      from { background-color: white; }
+      to {       background-color: #101010; };
+      }
     </style>
 
   </head>
   <body>
 <textarea id="source">
+name: fade
+layout: true
+class: fade
+---
 name: inverse
 layout: true
 class: center, middle, inverse
@@ -56,47 +67,47 @@ Text
 
 
 ---
-# Goals
+# Goal & Non-Goal
 
-### This talk should make you feel _uncomfortable_.<br>
+## This talk should make you feel _uncomfortable_.<br>
 
-### This talk is not intended to make anyone feel _unsafe_.<br> (Please follow up with organizers, per CoC.)
+## This talk is not intended to make anyone feel _unsafe_.<br> (Please follow up with organizers, per CoC.)
 
 ---
       
-# Definitions
+# Comfort & Safety
 
 ## comfortable
-Environment is within tolerable parameters.
+## &nbsp;&nbsp;Environment is within tolerable parameters.
 
 --
 ## safe
-Not in danger; free from harm's reach.
+## &nbsp;&nbsp;Not in danger; free from harm's reach.
 
 ---
-# Deceptive Similarity
+# Deceptively Similar in Their Presence
 
 --
 ## When you feel comfortable...
-   No action is necessary
+## &nbsp;&nbsp; No action is necessary
 
 --
 ## When you feel safe...
-   No action is necessary
+## &nbsp;&nbsp; No action is necessary
 
 
 ---
-# Critical Distinction 
+# Critically Different In Their Absence
 
 --
 ## When you feel **un**-comfortable
-   Corrective action is possible <br>
-   Ignoring discomfort is an option
+### &nbsp;&nbsp; Corrective action is possible <br>
+### &nbsp;&nbsp; Ignoring discomfort is an option
 
 --
 ## When you feel **un**-safe...
-   Immediate corrective action is necessary <br>
-   Fight/flight response; very **draining**
+### &nbsp;&nbsp; Immediate corrective action is necessary <br>
+### &nbsp;&nbsp; Fight/flight response; very **draining**
 
 ---
 # Motivating Example
@@ -125,30 +136,17 @@ class: center, middle
 
 <img style="padding-left: 10px;" align="right" src="man-month-cover.jpg" width="25%">
 
-The Mythical Man-Month: 
+## The Mythical Man-Month:
 
-<div style="padding-left: 22pt;" width="73%">
-...a group of experienced programmers. Within just this  group the ratios between best and worst performances averaged about 10:1  on productivity measurements and an amazing 5:1 on program speed and  space measurements!
-</div>
+### ...a group of ***experienced programmers***. Within just this group the ratios between ***best*** &nbsp;and ***worst***...
 
 ---
-# 10× Developer
 
-<img style="padding-left: 10px;" align="right" src="man-month-cover.jpg" width="25%">
+# Interpretation
 
-The Mythical Man-Month: 
+## “developer output varies by **project** and **individual** and **metric**”
 
-<div width="73%" style="padding-left: 22pt;" >
-...a group of experienced programmers. Within just this  group the ratios between **best** and **worst** performances averaged about 10:1  on **productivity** measurements and an amazing 5:1 on program **speed** and **space** measurements!
-</div>
-
---
-
-## Interpretation
-
-* “developer output varies by **project** and **individual** and **metric**”
-
-* not “some developers are 10× better than average”
+## common (incorrect) summary:<br> “some developers are 10× better than average”
 
 ---
 # Our brains have bugs
@@ -178,16 +176,6 @@ The Mythical Man-Month:
 
 ## What do you think about the people in this car?
 
---
-### bad people ?
---
-
-### bad situation ?
-                                                      
---
-
-## Does it depend on which car you're in?
-
 ---
 # Fundamental Attribution Error
 
@@ -215,20 +203,6 @@ The Mythical Man-Month:
 ## Instead of looking for 10× **developers**
 
 ## We should be looking at **environments**
-
----
-
-# 10×
-
-## It's hard to identify causes for **10×** environments
-
---
-
-## We should look for **0.1×** environments
-
---
-
-## and **DESTROY** them
 
 ---
 # A Productivity-Destroying Environment
@@ -261,29 +235,34 @@ template: inverse
 
 <img align="right" src="Container-Desk-2.png">
 
---
+---
+# A Productivity-Destroying Environment
 
-## Three kinds of events
+<img align="right" src="Container-Desk-2.png">
 
+## 1. Catastrophic Overflow
 
-* whole tank is overflowed in one transaction
+---
+# A Productivity-Destroying Environment
 
---
+<img align="right" src="Container-Desk-2.png">
 
-* fluid is added at < max outflow
+## 1. Catastrophic Overflow
+## 2. Business As Usual
 
---
+---
+# A Productivity-Destroying Environment
 
-* fluid is added at > max outflow
+<img align="right" src="Container-Desk-2.png">
 
---
-
-## Little Things Add Up  
+## 1. Catastrophic Overflow
+## 2. Business As Usual
+## 3. Little Things Add Up
 
 ---
 # Microaggressions
 
-> social exchanges in which a person says or does something (possibly accidentally or without intended malice) that belittles and alienates a member of a marginalized group.
+### social exchanges in which a person says or does something (possibly accidentally or without intended malice) that belittles and alienates a member of a marginalized group.
 
 --
 
@@ -345,43 +324,40 @@ Why are we even talking about balls, in a programming language learning resource
 > Intent matters, but only after the fact, to distinguish between misunderstanding and threat
 
 ---
-# Personal Anecdote
 
 ???
 
-in high school I was hanging out with my literary friends.  We used sarcasm. We knew all the tricks, dramatic irony, metaphor, bathos, puns, parody, litotes and satire.
+in high school I was hanging out with my friends; we were really into
+sarcasm.
 
-A woman that I didn't know very well said something to me, sort of a backhanded compliment
-
-I responded with (what I intended to be) a sarcastic, self-deprecating reference to a character from a story
+A woman I didn't know very well said something to me, and I
+interpreted as a backhanded compliment.  So I responded in kind, with
+a self-deprecating sarcastic comment.
 
 ... and she ran out of the room crying.
+
+Because I had caused her tank to overflow.  But my intent was good, right?
+So should I run after her and explain myself?
+
+No, of course not.  I knew that even at the age of 17.
 
 ---
 # I know **I** don't do things like that
 --
 
-## Because nobody ever calls me on them
+## Nobody ever calls me on them
 --
 
-## Possible causes:
---
+## Fundamental Attribution Error
 
-#### I'm not dumping any sewage?
-> my buggy brain wants me to believe this <br>
-> (Fundamental Attribution Error)<br>
-> it's probably not true
+---
+# What If
 
---
-
-#### People are trying to call me on it, but I'm ignoring them.
+## People are trying to call me on it, but I'm ignoring them.
 
 --
-#### People are choosing not to call me on it because they don't want <br>to deal with me.
+## People are choosing not to call me on it <br>because they don't want to deal with me.
 
---
-
-> can I rule these out?
 
 ---
 
@@ -401,22 +377,12 @@ citizen who is not too young and not too old.
 But I'll give it a shot.
 
 ---
-# Community
+template: fade
+???
 
-## A group of people who have _sacred values_ in common.
+Community
 
-> We identify sacred values and circle around them.
-
-Jonathan Haidt, "The Righteous Mind" (2012 book)
----
-# Javascript Community Values
-
-## Be Kind
-## Help People
-## Care
-
----
-# Personal Anecdote
+A group of people who have _sacred values_ in common.
 
 ---
 # How to be a 10× Developer
